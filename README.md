@@ -1,4 +1,4 @@
-# Heart Disease Classification Tool
+![Heart Disease Classification Tool](https://heart-disease-prediction-ml-apgbeff8fsfda2ey.centralindia-01.azurewebsites.net/)
 
 This is an interactive web application built using **Streamlit** that predicts the likelihood of heart disease based on patient data. The application uses a pre-trained machine learning model and provides insights into feature importance.
 
