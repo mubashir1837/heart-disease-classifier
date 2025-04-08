@@ -7,10 +7,9 @@ import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix
 
-# Load pre-trained model (replace with your actual model file)
 @st.cache_resource
 def load_model():
-    return joblib.load("heart_disease_model.pkl")  # Ensure this file exists in your directory
+    return joblib.load("heart_disease_model.pkl")  
 
 # Function to make predictions
 def predict_heart_disease(data, model):
